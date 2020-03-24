@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../component/Button';
 
-function HomePage() {
+function Index() {
   return (
     <div>
       <h1>Welcome to Next.js! {process.env.NODE_ENV}</h1>
@@ -10,4 +10,4 @@ function HomePage() {
     </div>);
 }
 
-export default HomePage
+export default Index
