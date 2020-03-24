@@ -7,7 +7,7 @@ function Button() {
   return (
     <>
       <label>{getHelp}</label><br />  
-      <button>I Click {process.env.NODE_ENV}</button>
+      <button>I Click {process.env.MY_ENV}</button>
     </>
   );
 }

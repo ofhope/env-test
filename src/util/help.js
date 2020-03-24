@@ -1,6 +1,6 @@
 
 function helpPlease() {
-  return `Heres your help ${process.env.MY_ENV}`
+  return `I'm output from a util helper ${process.env.MY_ENV}`
 }
 
 export {
